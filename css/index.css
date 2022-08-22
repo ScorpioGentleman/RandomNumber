@@ -1,0 +1,48 @@
+#root {
+	/* position */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	/* size */
+	width: 500px;
+	height: 200px;
+	
+	/* border */
+	/* border: 2px solid #000; */
+}
+
+.button {
+	/* position */
+	position: fixed;
+	top: 100%;
+	transform: translateY(-100%);
+	
+	/* size */
+	width: 100%;
+	height: 50px;
+	
+	/* font */
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	
+	/* border */
+	border: none;
+	
+	/* modifier */
+	cursor: pointer;
+	background: #26f;
+}
+
+.button:hover {
+	background: #15e;
+}
+
+.button:active {
+	
+	border: 4px solid #37f;
+	
+	background: #15e;
+}
