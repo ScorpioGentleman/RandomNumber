@@ -1,4 +1,4 @@
-#root {
+#random-number-generation {
 	/* position */
 	position: absolute;
 	top: 50%;
@@ -6,43 +6,157 @@
 	transform: translate(-50%, -50%);
 	
 	/* size */
-	width: 500px;
-	height: 200px;
+	width: 800px;
+	height: 450px;
 	
 	/* border */
 	/* border: 2px solid #000; */
 }
 
+#number-frame{
+	/* position */
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	
+	/* size */
+	width: 45%;
+	height: 75%;
+	
+	/* in-content */
+	text-align: center;
+	color: #000;
+	font-size: 24px;
+}
+
+.number {
+	/* position */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	/* size */
+	width: 75px;
+	height: 75px;
+	
+	/* in-content */
+	text-align: center;
+	line-height: 75px;
+	font-size: 45px;
+	text-shadow: 0 2px #cfc68f;
+	
+	/* border */
+	border-radius: 50%;
+	border-width: 5px;
+	
+	/* modifier */
+	background: #f2e9ac;
+	box-shadow: 0 10px #cfc68f;
+}
+
+#number-spinned-list {
+	/* position */
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	
+	/* size */
+	width: 50%;
+	/* height: 75%; */
+	
+	/* in-content */
+	padding-left: 5px;
+	
+	/* modifier */
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.number_spinned {
+	/* size */
+	width: 30px;
+	height: 30px;
+	
+	/* in-content */
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+	
+	/* border */
+	border-radius: 50%;
+	border-width: 2px;
+	text-shadow: 0 0.8px #cfc68f;
+	
+	/* modifier */
+	margin: 5px;
+	background: #f2e9ac;
+	box-shadow: 0 4px #cfc68f;
+}
+
+#red {
+	/* in-content */
+	color: #f55182;
+	
+	/* border */
+	border-style: solid;
+	border-color: #f55182;
+}
+
+#green {
+	/* in-content */
+	color: #40ad42;
+	
+	/* border */
+	border-style: solid;
+	border-color: #40ad42;
+}
+
 .button {
 	/* position */
 	position: fixed;
-	top: 100%;
-	transform: translateY(-100%);
+	bottom: 5px;
 	
 	/* size */
-	width: 100%;
 	height: 50px;
 	
-	/* font */
+	/* in-content */
 	text-align: center;
-	color: #fff;
+	color: #1c1c1c;
 	font-size: 24px;
+	font-weight: 600;
+	text-shadow: 0 2px #cfc68f;
 	
 	/* border */
-	border: none;
+	border: 4px solid #1c1c1c;
+	border-radius: 25px;
 	
 	/* modifier */
 	cursor: pointer;
-	background: #26f;
-}
-
-.button:hover {
-	background: #15e;
+	background: #f2e9ac;
+	box-shadow: 0 5px #cfc68f;
 }
 
 .button:active {
+	/* position */
+	transform: translateY(4px);
 	
-	border: 4px solid #37f;
+	/* modifier */
+	box-shadow: 0 1px #cfc68f;
+}
+
+#reset {
+	/* position */
+	left: 0px;
 	
-	background: #15e;
+	/* size */
+	width: 22%;
+}
+
+#spin {
+	/* position */
+	left: 23%;
+	
+	/* size */
+	width: 23%;
 }

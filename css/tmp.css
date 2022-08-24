@@ -1,0 +1,47 @@
+#random-number-generation {
+	/* position */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	/* size */
+	width: 700px;
+	height: 500px;
+	
+	/* border */
+	border: 2px solid #000;
+}
+
+#number{
+	/* position */
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	
+	/* size */
+	width: 70%;
+	
+	/* in-content */
+	text-align: center;
+	color: #000;
+	font-size: 24px;
+	
+	/* border */
+	border: 2px solid #0a0;
+	
+	/* modifier */
+	display: flex;
+	flex-wrap: wrap;
+	background: #55f;
+	padding: 10px;
+}
+.column {
+	background-color: #f1f1f1;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+}

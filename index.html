@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Random Number</title>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Random Number</title>
+		<link rel="stylesheet" href="css/index.css">
+    </head>
 	
-	<link rel="stylesheet" href="css/index.css">
+    <body>
+		<div id="random-number-generation">
+            <div id="number-frame"></div>
+			<div id="number-spinned-list">
+			</div>
+            <button class="button" id="reset" onclick="Reset()">RESET</button>
+			<button class="button" id="spin" onclick="Randomize()">SPIN</button>
+        </div>
+    </body>
 	
-  <body>
-  
-    <div id="root">
-	
-		<button class="button">Button</button>
-	
-	</div>
-	
-  </body>
+	<script type="text/javascript" src="js/number_generation.js"></script>
+
 </html>
