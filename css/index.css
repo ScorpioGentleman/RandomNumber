@@ -54,6 +54,7 @@
 	/* modifier */
 	background: #f2e9ac;
 	box-shadow: 0 10px #cfc68f;
+        user-select: none;
 }
 
 #number-spinned-list {
@@ -125,6 +126,7 @@
 	margin: 5px;
 	background: #f2e9ac;
 	box-shadow: 0 4px #cfc68f;
+        user-select: none;
 }
 
 #red {
@@ -169,6 +171,7 @@
 	cursor: pointer;
 	background: #f2e9ac;
 	box-shadow: 0 5px #cfc68f;
+        user-select: none;
 }
 
 .button:active {
@@ -177,6 +180,7 @@
 	
 	/* modifier */
 	box-shadow: 0 1px #cfc68f;
+        user-select: none;
 }
 
 #reset {
