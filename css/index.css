@@ -156,7 +156,22 @@
         outline: none;
 }
 
+.button:active {
+	
+	transform: translateY(4px);
+	
+	box-shadow: 0 1px #cfc68f;
+	user-select: none;
+	outline: none;
+	
+}
 
+.button:focus {
+
+	user-select: none;
+	outline: none;
+	
+}
 
 #reset {
 	
