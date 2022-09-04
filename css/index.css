@@ -153,6 +153,7 @@
 	background: #f2e9ac;
 	box-shadow: 0 5px #cfc68f;
 	user-select: none;
+        outline: none;
 }
 
 .button:active {
