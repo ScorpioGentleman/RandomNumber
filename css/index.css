@@ -137,6 +137,10 @@
 	bottom: 5px;
 	
 	height: 40px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	
 	text-align: center;
 	line-height: 40px;
