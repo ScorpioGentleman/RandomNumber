@@ -1,3 +1,4 @@
+screen.orientation.lock("landscape");
 // Init
 	// Amount of numbers
 	var num_max = 90;
