@@ -1,4 +1,11 @@
+let de = document.documentElement;
+if (de.requestFullscreen) {de.requestFullscreen();}
+else if (de.webkitRequestFullscreen) {de.webkitRequestFullscreen();}
+else if (de.msRequestFullscreen) {de.msRequestFullscreen();}
+else if (de.mozRequestFullScreen) {de.mozRequestFullScreen();}
+
 screen.orientation.lock("landscape");
+
 // Init
 	// Amount of numbers
 	var num_max = 90;
