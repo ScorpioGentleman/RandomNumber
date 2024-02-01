@@ -1,4 +1,5 @@
-screen.orientation.lock("portrait");
+var myScreenOrientation = window.screen.orientation;
+myScreenOrientation.lock("landscape");
 
 // Init
 	// Amount of numbers
