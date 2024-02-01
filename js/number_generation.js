@@ -1,10 +1,4 @@
-let de = document.documentElement;
-if (de.requestFullscreen) {de.requestFullscreen();}
-else if (de.webkitRequestFullscreen) {de.webkitRequestFullscreen();}
-else if (de.msRequestFullscreen) {de.msRequestFullscreen();}
-else if (de.mozRequestFullScreen) {de.mozRequestFullScreen();}
-
-screen.orientation.lock("landscape");
+screen.orientation.lock("portrait");
 
 // Init
 	// Amount of numbers
